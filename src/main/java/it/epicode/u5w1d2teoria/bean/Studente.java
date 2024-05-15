@@ -11,6 +11,7 @@ public class Studente {
     private String cognome;
     private String indirizzo;
 
+
     private List<Dispositivo> dispositivi=new ArrayList<>();
 
 }

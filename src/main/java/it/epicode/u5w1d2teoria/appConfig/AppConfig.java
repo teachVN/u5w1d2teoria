@@ -23,6 +23,7 @@ public class AppConfig {
         studente.setNome(nome);
         studente.setCognome(cognome);
         studente.setIndirizzo("Via Roma");
+
         studente.setDispositivi(List.of(getComputer(), getSmartphone()));
         return studente;
     }
